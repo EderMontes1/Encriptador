@@ -1,0 +1,60 @@
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Encriptador - Desencriptador</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+	</head>
+    <body>
+
+
+        
+        
+
+        <div id="encabezado"> <!--Titulo -->
+            <h1>Encriptador - Desencriptador</h1>
+        </div>
+
+        <div id="input"> <!--El cajon para ingresar el texto a encriptar -->
+            
+            <input type="text" style="height:120px" size="150" maxlenght="500" value="Introduce el texto aquí" name="entrada" id="entrada">
+        </div>
+           
+            <div class="botones"> <!--Clase para los dos primeros botones -->
+            <button id="boton_1">Encriptar</button>
+            <button id="boton_2">Desencriptar</button>
+            </div>
+
+            <div id="output"> <!--El cajon para el area donde muestra el desencriptado -->
+                <input type="text" style="height:120px" size="150" maxlenght="500" value="" name="salida" id="salida">
+            </div>
+
+
+            <div id="botoncopiar"> <!--Clase para el boton copiar -->
+                <button id="boton_copiar" onclick=copyToClip()>Copiar</button>
+            </div>
+
+            <script src="encriptado.js"></script>
+            <script src="desencriptado.js"></script>
+
+
+            <div class="footer"> <!--Pie de página -->
+             <p>Eder Alberto Montes Ramírez</p>
+                                         
+            <br>  
+
+            <p>
+            <br> 
+            <a href="https://github.com/EderMontes1">https://github.com/EderMontes1</a>
+            </p>
+
+            </div>
+
+
+    </body>
+
+
+
+        
+</html>

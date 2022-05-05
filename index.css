@@ -1,0 +1,158 @@
+/* Ingrese el texto aqui */
+*{
+        margin:0px;
+        padding:0px;
+}
+
+div#encabezado{   /* Titulo */
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size:large;
+    font-family: Arial;
+       
+}
+
+#input{    /* Propiedades para el div del input */
+    display: flex;
+    justify-content: center;
+       
+}
+
+#entrada{      /* Propiedades para el div del input */
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size:large;
+    font-family: Arial;
+    border-style:solid;
+    border-width: 5px;   
+    border-radius: 20px;
+}
+
+
+
+#salida{    /* Propiedades para el div del textarea */
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size:large;
+    font-family: Arial;
+    border-style:solid;
+    border-width: 5px;   
+    border-radius: 20px;
+}
+
+
+#output{  /* Propiedades para el div del textarea */
+    display: flex;
+    justify-content: center;
+       
+}
+
+
+
+.botones{   /* Propiedades para el div de los botones */
+
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+  #boton_1{  /* Propiedades para el boton de encriptar */
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  #boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+  #boton_2{    /* Propiedades para el boton de desencriptar */
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  #boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+  #botoncopiar{   /* Propiedades para el div de los botones */
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  #boton_copiar{    /* Propiedades para el boton de desencriptar */
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #3561cf;
+    background-color: #a5b3e0;
+    border-radius: 15px;
+    border: 3px double #1e0971;
+  }
+  #boton_copiar:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+
+  .footer {   /* Propiedades para el div de los botones */
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    margin-left: 0px;
+    margin-top: 199px;
+    justify-content: left;
+    font-size: 14;
+    font-weight: bold;
+    font-family: Arial;
+    background-color:white;
+  
+  }
+
+
+body {  /* Fondo de pantalla */
+
+    background-image: url("fondo.jpg");
+
+}
+
